@@ -1,0 +1,34 @@
+[
+    {
+        "model": "vehiculos_app.vehicle",
+        "pk":1,
+        "fields": {
+            "registration_plate": "ABC123",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "year": "2020-01-01",
+            "active": true
+            
+        }
+    },
+    {
+        "model": "vehiculos_app.driver",
+        "pk":1,
+        "fields": {
+            "rut": "123456789",
+            "name": "Alexis",
+            "last_name": "Valenzuela",
+            "active": true,
+            "vehicle": "ABC123"
+        }
+    },
+    {
+        "model": "vehiculos_app.accountingrecord",
+        "pk":1,
+        "fields": {
+            "date_of_purchase": "2022-05-01",
+            "price": 200000.0,
+            "vehicle": "ABC123"
+        }
+    }
+]
